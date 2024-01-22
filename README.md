@@ -44,8 +44,22 @@ Esta ejecución mostrará los resultados obtenidos por cada apartado de la PEC4,
 
 ![Resultado de la ejecución del archivo main.py](https://github.com/JoseC468/PPCD_pec4/blob/main/result_execute_main.png)
 
-Sin embargo, en el resultado de los 
+Sin embargo, en el resultado de la ejecución del archivo "main.py" podemos que solo se muestra los resultados operacionales como filtrado, listas y gráficos, pero no hay comentarios finales. Esto comentarios que son necesarios por algunas preguntas y las conclusiones de la última pregunta serán realizados por este archivo "README". 
 
+Pregunta 1.4: ¿Qué diferencias se observan en la lectura de los ficheros siguiendo ambos métodos? ¿Si los ficheros tuvieran un tamaño de 10GB qué método sería más rápido? Justificad la respuesta.
 
+Con respecto a la diferencia en la lectura de ficheros se puede ver que en visualización y comprensión, es más factible los resultados birndados por la integración por dataframe, ya que, la vizualización en una tabla es más interpretable y comprensible a simple vista, además, se puede ver que para que este conjunto de datos la integración de datos fue más rápido por dataframe (1.705 seg.) que el diccionario (2.181 seg.). Sin embargo, de las clases anteriores podemos hablar sobre el consumo de memoria, la integración por dataframe tiende a consumir mayor memoria, en especial si los archivos son de 10GB, en cuanto a la integración por diccionario es más eficiente en está parte, ya que, a nivel de memoria el diccionario pesa menos que un dataframe. Por último, si el consumo de memoria es ilimitado, el siguiente paso para seleccionar la mejor opción es la parte operacional, si se requieren operaciones complejas sobre todo el conjunto de datos sería más adecuado usar la integración por DataFrame y si se necesita acceder a datos específicos rápidamente mediante el 'id', la integración por diccionario es más adecuado. 
 
+Pregunta 4.1: Mostrad en un gráfico de barras el número de series por año de inicio.
 
+De acuerdo al gráfico de barras, podemos ver que existe una tendecia creciente, de tipo exponencial en la producción de series. Esta tendencia se puede ver reflejada desde 1940 en adelante. Llegando a su pico más alto alrededor del 2020. 
+
+Pregunta 4.2: Construid un gráfico de líneas que muestre el número de series de cada categoría de la variable “type” producidas en cada década desde 1940. ¿Qué cambios de tendencia se observan?.
+
+Del siguiente gráfico se tiene que para todos las categorías de películas producidas desde la década de los 40, se tiene una tendencia creciente. Por otro lado, la categoría de 'Scripted' es la única que tiene una tendencia creciente de tipo exponencial, es decir, que desde la década de los 40, está categoría tuvo mayor impacto en los televidentes por lo que se tuvieron que crear más series de ese tipo. Asimismo, las miniseries tuvo impacto regular hasta la década del 2010, donde era la segunda categoría con mayor demanda, pero en la última década paso a la 4ta posición. 
+
+Pregunta 4.3: Obtened el número de series por género y mostrad el porcentaje respecto al total en un gráfico circular. Los géneros que representen menos del 1% del total se incluirán en la categoría "Other". Tened en cuenta que una serie que tenga más de un género deberá incluirse en todas las categorías en que esté clasificada y que las series con el campo "genres" vacío no se incluyen.
+
+De acuerdo al siguiente gráfico circular podemos ver que las categorías con mayor demanda son del tipo de Drama (22.7%), Comedy (15.7%) y Documentary (14.8%). Estás 3 categorías representa más del 50% del total de audiencias. 
+
+Pregunta 5: Conclusiones.

@@ -45,6 +45,7 @@ Esta ejecución mostrará los resultados obtenidos por cada apartado de la PEC4,
 
 ![Resultado de la ejecución del archivo main.py](https://github.com/JoseC468/PPCD_pec4/blob/main/process_image_execute/result_execute_main.png)
 
+--------------------
 Sin embargo, en el resultado de la ejecución del archivo "main.py" podemos que solo se muestra los resultados operacionales como filtrado, listas y gráficos, pero no hay comentarios finales. Esto comentarios que son necesarios por algunas preguntas y las conclusiones de la última pregunta serán realizados por este archivo "README". 
 
 Pregunta 1.4: ¿Qué diferencias se observan en la lectura de los ficheros siguiendo ambos métodos? ¿Si los ficheros tuvieran un tamaño de 10GB qué método sería más rápido? Justificad la respuesta.
@@ -74,4 +75,18 @@ El análisis detallado de la producción por categoría, representado en el grá
 En cuanto a la distribución por género, el gráfico circular revela que los géneros de Drama, Comedy y Documentary son los más demandados, representando conjuntamente más del 50% del total de audiencias. Este hallazgo subraya la preferencia generalizada por estos géneros entre los espectadores. La inclusión de géneros menos representativos en la categoría "Other" facilita la interpretación visual y resalta la predominancia de ciertos géneros.
 
 En conclusión, los datos analizados reflejan una evolución positiva en la producción de series a lo largo del tiempo, con ciertos géneros y categorías destacando como líderes en popularidad. Estos hallazgos proporcionan insights valiosos para la toma de decisiones en la industria televisiva, permitiendo adaptar la oferta de contenido a las preferencias cambiantes de la audiencia.
+--------------------
+
+En este apartado para evaluar el rendimiento y la modularidad del código usaremos el paquete pylint. Este paquete nos permite evaluar la calidad del código y para evaluar la calidad de los archivos .py, es necesario ejecutar en el terminal el siguiente código:
+
+- pylint main.py
+
+Sin embargo, existe un error que complica la legibilidad del código y esto está relacionado con  la longitud máxima de línea en la ruta de salida para los archivos como PATH_ARCHIVE, PATH_DECOMPRESS, PATH_DATA y PATH_SAVE_GRAPH. Además, para no distorsionar la legibilidad del código usaremos la siguiente sentencia que acepta una línea máxima de 130 y no 100 (por defecto). Esta opción se aplica para todos los archivos planos generados.  
+
+- pylint --max-line-length=130 main.py
+- pylint --max-line-length=130 Modulos\analisis\descriptive.py
+- pylint --max-line-length=130 Modulos\lectura\read_csv.py
+- pylint --max-line-length=130 Modulos\lectura\unzip_file.py
+- pylint --max-line-length=130 Modulos\limpieza\filtrado.py
+- pylint --max-line-length=130 Modulos\preprocesamiento\processing.py
 

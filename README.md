@@ -1,4 +1,5 @@
 # PEC4 - Programación para la ciencia de datos - Aula 3
+----------------------
 
 Para esta PEC4 fue necesario poder revisar mucha documentación relacionada con clean code y la organización modular de funciones en archivos planos con extensión .py. Es así que a lo largo de está última PEC4 traté de aplicar lo principios de clean code y he estructurado mis funciones de manera modular en archivos .py, culminando en un programa ejecutable desde un archivo main.py. Es así que en este proceso de aprendizaje, he abordado no solo la sintaxis y las capacidades fundamentales de Python, sino también la importancia un código claro, eficiente y que facilité su mantenimiento a través del tiempo. 
 
@@ -46,6 +47,7 @@ Esta ejecución mostrará los resultados obtenidos por cada apartado de la PEC4,
 ![Resultado de la ejecución del archivo main.py](https://github.com/JoseC468/PPCD_pec4/blob/main/process_image_execute/result_execute_main.png)
 
 --------------------
+
 Sin embargo, en el resultado de la ejecución del archivo "main.py" podemos que solo se muestra los resultados operacionales como filtrado, listas y gráficos, pero no hay comentarios finales. Esto comentarios que son necesarios por algunas preguntas y las conclusiones de la última pregunta serán realizados por este archivo "README". 
 
 Pregunta 1.4: ¿Qué diferencias se observan en la lectura de los ficheros siguiendo ambos métodos? ¿Si los ficheros tuvieran un tamaño de 10GB qué método sería más rápido? Justificad la respuesta.

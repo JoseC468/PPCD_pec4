@@ -62,6 +62,7 @@ Pregunta 4.3: Obtened el número de series por género y mostrad el porcentaje r
 
 R: De acuerdo al siguiente gráfico circular podemos ver que las categorías con mayor demanda son del tipo de Drama (22.7%), Comedy (15.7%) y Documentary (14.8%). Estás 3 categorías representa más del 50% del total de audiencias. 
 
+----------------
 Pregunta 5: Conclusiones.
 
 Luego de la revisión de los resultados obtenidos a partir de los gráficos de barras, líneas y el gráfico circular, se pueden extraer conclusiones significativas sobre la evolución y preferencias en la producción de series a lo largo del tiempo.

@@ -75,6 +75,7 @@ El análisis detallado de la producción por categoría, representado en el grá
 En cuanto a la distribución por género, el gráfico circular revela que los géneros de Drama, Comedy y Documentary son los más demandados, representando conjuntamente más del 50% del total de audiencias. Este hallazgo subraya la preferencia generalizada por estos géneros entre los espectadores. La inclusión de géneros menos representativos en la categoría "Other" facilita la interpretación visual y resalta la predominancia de ciertos géneros.
 
 En conclusión, los datos analizados reflejan una evolución positiva en la producción de series a lo largo del tiempo, con ciertos géneros y categorías destacando como líderes en popularidad. Estos hallazgos proporcionan insights valiosos para la toma de decisiones en la industria televisiva, permitiendo adaptar la oferta de contenido a las preferencias cambiantes de la audiencia.
+
 --------------------
 
 En este apartado para evaluar el rendimiento y la modularidad del código usaremos el paquete pylint. Este paquete nos permite evaluar la calidad del código y para evaluar la calidad de los archivos .py, es necesario ejecutar en el terminal el siguiente código:

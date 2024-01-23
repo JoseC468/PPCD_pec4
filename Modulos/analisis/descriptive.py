@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 def graph_bar(data: pd.DataFrame, path_save_fig: str=None, col: str = '#2CD5D5'):
     """
     Crea un gráfico de barras y, opcionalmente, lo guarda en una ruta específica.
@@ -34,7 +33,6 @@ def graph_bar(data: pd.DataFrame, path_save_fig: str=None, col: str = '#2CD5D5')
         plt.savefig(path_save_graph)
     else:
         plt.show()
-
 
 def graph_line(data: pd.DataFrame, path_save_fig: str=None):
     """

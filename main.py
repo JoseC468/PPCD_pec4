@@ -8,11 +8,12 @@ from Modulos.limpieza.filtrado import filter1_overview, filter2_status, filter3_
 from Modulos.analisis.descriptive import graph_bar, graph_line, graph_circle
 
 # Generamos la ruta de los archivos y la de destino
-PATH_ARCHIVE = r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\SOL\venv_pec4\zip\TMDB.zip'
-PATH_DECOMPRESS = r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\SOL\venv_pec4\zip\unzip'
+PATH_ARCHIVE = r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\VALIDACION\pec4_sol\zip\TMDB.zip'
+PATH_DECOMPRESS = r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\VALIDACION\pec4_sol\zip\unzip'
+PATH_DATA=r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\VALIDACION\pec4_sol\data'
+PATH_SAVE_GRAPH = r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\VALIDACION\pec4_sol\graph'
 
 # Ejercicio 1: Descomprensión y lectura de ficheros.
-
 ## Ejercicio 1.1
 """Implementad una función que descomprima ficheros en formato zip y tar.gz."""
 decompress_file(path_file = PATH_ARCHIVE, path_destination = PATH_DECOMPRESS)
@@ -21,14 +22,12 @@ decompress_file(path_file = PATH_ARCHIVE, path_destination = PATH_DECOMPRESS)
 df_integrated = integrated_dataframe(PATH_DECOMPRESS)
 
 ### Exportamos el dataset
-PATH_DATA=r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\SOL\venv_pec4\data'
 df_integrated.to_csv(PATH_DATA + r'\df_integrated.csv', index=False)
 
 ## Ejercicio 1.3.
 resultado_diccionario = integrated_dictionary(PATH_DECOMPRESS)
 
 # Ejercicio 2: Descomprensión y lectura de ficheros.
-
 ## Ejercicio 2.1.
 df_integrated_new = calculate_days(data = df_integrated, feature_date_start = 'first_air_date',
                                    feature_date_fin = 'last_air_date', name_new_var ='air_days')
@@ -49,8 +48,6 @@ list_name_filter2 = filter2_status(data = df_integrated_new)
 df_filter3 = filter3_languaje(data = df_integrated_new)
 
 # Ejercicio 4: Análisis gráfico.
-PATH_SAVE_GRAPH = r'D:\Master UOC\Clases\2do semestre\Programación para la ciencia de datos\PEC4\PEC4_sol\SOL\venv_pec4\graph'
-
 ## Ejercicio 4.1.
 graph_bar(data = df_integrated_new, path_save_fig = PATH_SAVE_GRAPH, col = '#2CD5D5')
 

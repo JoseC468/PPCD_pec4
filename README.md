@@ -96,3 +96,8 @@ Sin embargo, existe un error que complica la legibilidad del código y esto est�
 Por último, para evaluar el test usaremos el paquete html-testRunner y este será ejecutado en el terminal con la siguiente línea de código:
 
 - python -m unittest -v main.py
+
+Ante cualquier inconveniente con algún archivo de ejecución, esto se encuentra cargado en la siguiente cuenta de GitHub:
+
+- https://github.com/JoseC468/PPCD_pec4
+

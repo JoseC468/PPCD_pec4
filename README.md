@@ -24,10 +24,10 @@ Luego de tener crear y activar nuestro entorno virtual, en el caso de trabajar c
 Adjunto unas imágenes explicando este proceso.
 
 - Luego de crear el entorno virtual (venv) se puede ver que se muestra lo siguientes archivos.
-![venv sin los archivos de ejecución](https://github.com/JoseC468/PPCD_pec4/blob/main/venv-sin-archivos.png)
+![venv sin los archivos de ejecución](https://github.com/JoseC468/PPCD_pec4/blob/main/process_image_execute/venv-sin-archivos.png)
 
 - Posterior a descomprimir el archivo .zip y copiar los archivos mencionados en el entorno virtual resulta lo siguiente.
-![venv con los archivos de ejecución](https://github.com/JoseC468/PPCD_pec4/blob/main/venv-con-archivos.png)
+![venv con los archivos de ejecución](https://github.com/JoseC468/PPCD_pec4/blob/main/process_image_execute/venv-con-archivos.png)
 
 A continuación, pasaremos a instalar los paquetes necesarios para ejecutar sin problemas nuestro archivos .py. Para ello, podemos ejecutar en el terminal (Command Prompt) la siguiente sentencia "pip3 install -r requirements.txt". Este proceso de instalación de paquetes tarda a lo más 2 minutos.
 
@@ -42,7 +42,7 @@ Finalmente, luego de hacer la modificación de las rutas de salida, pasaremos a 
 
 Esta ejecución mostrará los resultados obtenidos por cada apartado de la PEC4, indicando el número de pregunta y una corta descripción, como se muestra en la siguiente imagen. 
 
-![Resultado de la ejecución del archivo main.py](https://github.com/JoseC468/PPCD_pec4/blob/main/result_execute_main.png)
+![Resultado de la ejecución del archivo main.py](https://github.com/JoseC468/PPCD_pec4/blob/main/process_image_execute/result_execute_main.png)
 
 Sin embargo, en el resultado de la ejecución del archivo "main.py" podemos que solo se muestra los resultados operacionales como filtrado, listas y gráficos, pero no hay comentarios finales. Esto comentarios que son necesarios por algunas preguntas y las conclusiones de la última pregunta serán realizados por este archivo "README". 
 

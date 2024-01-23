@@ -8,6 +8,7 @@ En una primera instancia es necesario crear una máquina virtual o como en mi ca
 
 1. Crear un entorno virtual, puedes usar el siguiente comando en el terminal: python3 -m venv name_venv (name_venv: define el nombre de tu proyecto, en nuestro caso lo llamaremos pec4_sol)
 2. Luego seguiremos con la activación del entorno virtual: pec4_sol\Scripts\activate.bat
+3. Finalmente, ingresaremos a trabajar en el entorno virtual ejecutando en el terminal el siguiente código: cd pec4_sol
 
 Luego de tener crear y activar nuestro entorno virtual, en el caso de trabajar con Visual Studio Code es necesario ingresar directarmente al entorno virtual. Pero antes, debemos descomprimir el archivo que continene la solución de la PEC4 y llevar los siguientes archivos:
 
